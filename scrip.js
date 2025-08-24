@@ -1,0 +1,11 @@
+// let head= document.getElementById("h1");
+// console.log(head);
+// let classname= document.getElementsByClassName("p1");
+// console.log(classname);
+// let btn= document.getElementsByTagName("button");
+// console.log(btn);
+let newp= document.createElement("p");
+newp.innerText= "Hii i am a new p";
+let classname= document.getElementsByClassName("p1");
+console.log(classname);
+classname[0].appendChild(newp);
